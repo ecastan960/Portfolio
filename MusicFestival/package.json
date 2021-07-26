@@ -1,0 +1,23 @@
+{
+  "name": "musicfestival",
+  "version": "1.0.0",
+  "description": "Learning project for Gulp and Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecastan960/Portfolio/tree/main/MusicFestival"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Esteban Castaño",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0"
+  }
+}
