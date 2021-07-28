@@ -18,7 +18,10 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^4.0.0",
     "gulp-sass": "^5.0.0",
+    "gulp-webp": "^4.0.1",
     "sass": "^1.36.0"
   }
 }
