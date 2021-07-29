@@ -387,6 +387,14 @@ h3 {
   font-size: 3rem;
 }
 
+.bg-green {
+  background-color: #4cb8b3;
+}
+
+.bg-yellow {
+  background-color: #fef46d;
+}
+
 .header {
   background-color: #4cb8b3;
 }
@@ -494,4 +502,78 @@ h3 {
 }
 .festival-content .text {
   line-height: 1.5;
+}
+
+.lineup {
+  background-color: #f53756;
+  padding: 5rem 0;
+}
+.lineup h3, .lineup p {
+  text-align: center;
+  color: #fff;
+}
+.lineup .day {
+  text-transform: uppercase;
+  margin: 5rem 0;
+}
+
+@media (min-width: 768px) {
+  .scenarios-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+}
+.scenarios-container .scenario {
+  padding-top: 2.5rem;
+}
+.scenarios-container .scenario-name {
+  color: black;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.scenarios-container .scenario-name:after {
+  content: "";
+  width: 20rem;
+  height: 10rem;
+  display: block;
+  margin: 2rem auto 0 auto;
+  background-size: 15rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.edm .scenario-name:after {
+  background-image: url("../img/icono_edm.png");
+}
+
+.rock .scenario-name:after {
+  background-image: url("../img/icono_rock.png");
+}
+
+.calendar {
+  padding: 0;
+  list-style: none;
+}
+.calendar li {
+  padding: 2.5rem;
+  font-weight: 700;
+}
+.calendar li span {
+  font-weight: 400;
+}
+
+.bg-green .calendar li:nth-child(odd) {
+  background-color: #3b9691;
+}
+
+.bg-yellow .calendar li:nth-child(odd) {
+  background-color: #fef03a;
+}
+
+.gallery {
+  padding: 5rem 0;
+}
+.gallery h3 {
+  text-align: center;
 }

@@ -4,10 +4,12 @@ const sass = require('gulp-sass')(require('sass'));
 const imagemin = require('gulp-imagemin');
 const notify = require('gulp-notify');
 const webp = require('gulp-webp');
+const concat = require('gulp-concat');
 
 const paths = {
     images: 'src/img/**/*',
-    scss:  'src/scss/**/*.scss'
+    scss:  'src/scss/**/*.scss',
+    js: 'src/js/**/*.js'
 }
 
 // Function that compile sass
@@ -27,6 +29,12 @@ function minimize() {
         .pipe( dest('./build/css') )
 }
 
+function javascript() {
+    return src( paths.js )
+        .pipe ( concat('bundle.js') )
+        .pipe ( dest('./build/js'))
+}
+
 function images () {
     return src(paths.images)
     .pipe ( imagemin())
@@ -44,10 +52,12 @@ function versionWebp () {
 
 function watchFiles() {
     watch(paths.scss, css ); // * = current folder - ** = All files with current extension
+    watch(paths.js, javascript)
 }
 
 exports.css = css;
 exports.minimize = minimize;
 exports.images = images;
+exports.javascript = javascript;
 exports.watchFiles = watchFiles;
-exports.default = series(css, images, versionWebp, watchFiles);
+exports.default = series(css, javascript , images, versionWebp, watchFiles);
