@@ -1,10 +1,10 @@
 const { series, src, dest, watch } = require('gulp');
 
 const sass = require('gulp-sass')(require('sass'));
-const imagemin = require('gulp-imagemin');
-const notify = require('gulp-notify');
-const webp = require('gulp-webp');
-const concat = require('gulp-concat');
+const imagemin = require('gulp-imagemin'); // Minimize image size
+const notify = require('gulp-notify'); // Notify user of gulp processes
+const webp = require('gulp-webp'); // Conversion to webp format
+const concat = require('gulp-concat'); // Concatenates all files into one
 
 // Utilities css
 const autoprefixer = require('autoprefixer');
