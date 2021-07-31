@@ -5,3 +5,45 @@
         text-align: center;
     }
 }
+
+.gallery-images {
+    padding: 0;
+    list-style: none;
+    margin-top: $separation;
+
+    @include grid(2, $separation);
+
+    @include tablet {
+        @include grid(4, $separation / 2);
+    }
+
+    @include desktop {
+        @include grid(6, $separation / 2);
+    }
+
+}
+
+.overlay {
+    position: fixed;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: grid;
+    place-items: center;
+}
+
+.btn-close {
+    width: 5rem;
+    height: 5rem;
+    background-color: $white;
+    display: grid;
+    place-items: center;
+    font-weight: $bblack;
+    font-size: 3rem;
+    border-radius: 50%;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

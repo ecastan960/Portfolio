@@ -12,9 +12,9 @@
         <div class="container content-header">
             <h1>Rock & EDM Festival</h1>
             <nav class="nav-principal">
-                <a href="#">Line Up</a>
-                <a href="#">Gallery</a>
-                <a href="#">Tickets</a>
+                <a href="#lineup">Line Up</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#tickets">Tickets</a>
             </nav>
 
         </div>
@@ -47,7 +47,7 @@
         </div>
     </div>
 
-    <section class="lineup">
+    <section id="lineup" class="lineup">
         <h3>Line Up</h3>
 
         <p class="day"> Friday 21</p>
@@ -116,7 +116,7 @@
         </div>
     </section>
 
-    <section class="gallery container">
+    <section id="gallery" class="gallery container">
         <h3>Gallery</h3>
 
         <ul class="gallery-images">
@@ -125,6 +125,86 @@
 
     </section>
 
-    <script src="/build/js/bundle.js" ></script>
+    <section id="tickets" class="tickets bg-green">
+        <h3>Tickets</h3>
+        <div class="container-tickets container">
+            <div class="basic plan">
+                <p>Pass 1 day</p>
+                <table class="pass">
+                    <thead>
+                        <tr>
+                            <th>
+                                Include
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Access to all scenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Food and beverages
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>$100</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+            <div class="premium plan">
+                <p>Pass 2 days</p>
+                <table class="pass">
+                    <thead>
+                        <tr>
+                            <th>
+                                Include
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Access to all scenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Food and beverages
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Event Shirt
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                VIP Access
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>$180</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Rock & EDM Festival. All rights reserve</p>
+    </footer>
+
+    <script src="/build/js/bundle.min.js" ></script>
 </body>
 </html>
