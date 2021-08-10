@@ -3,6 +3,9 @@ import Select from "react-select";
 import axios from "axios";
 import NumberFormat from "react-number-format";
 
+// this class displays all the countries in an
+// expecific region
+
 const options = [
   { value: "asia", label: "Asia" },
   { value: "europe", label: "Europe" },

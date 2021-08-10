@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import axios from "axios";
 import NumberFormat from "react-number-format";
 
+// This component search for a capital city or a
+// country
 class Search extends Component {
   constructor(props) {
     super(props);

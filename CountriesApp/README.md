@@ -4,9 +4,9 @@
 
 In this project a web page is developed using several tools to automatize the creation of css and js files for deployment.
 
-## Source of the project
+## Link of the project
 
-Udemy Course: Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL
+https://searchcountriesapp.netlify.app/
 
 ## Key topics
 
