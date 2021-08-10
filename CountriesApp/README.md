@@ -13,7 +13,7 @@ https://searchcountriesapp.netlify.app/
 
 ![App Screenshot](./public/CApp.jpg)
 
-## Source AIP
+## Source API
 
 https://restcountries.eu/
 
@@ -45,7 +45,7 @@ First, the type of search is needed to be selected. In this case, the following 
 - By Region
 - By Capital
 
-If Country or capital are selected, a search bar is visible to input the request. If the is no response from the
-API, an error shows up to review the input and try again. If a partial name is writen down, then the response will show results that contain those letters requested
+If Country or capital are selected, a search bar is visible to input the request. If there is no response from the
+API, an error shows on the screen to review the query and try again. If a partial name is writen down, then the response will show the results that contain those letters requested
 
 If By Region is selected, a new select bar is shown that contains all the available countries in the region.
