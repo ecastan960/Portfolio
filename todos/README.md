@@ -4,6 +4,10 @@
 
 In this project, a app is developed that displays to do tasks from users that are save from a web service
 
+## Update
+
+The endpoints provider is no longer online, therefore, the app doesn't work as intended.
+
 ## Link of the project
 
 https://todos-app-21.netlify.app
