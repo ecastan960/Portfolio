@@ -12,7 +12,7 @@ todov2-2021.netlify.app
 
 ![App Screenshot](./sources/img/Capture.JPG)
 
-## Source API
+## Source of the project
 
 https://www.youtube.com/watch?v=Bh7j2upPAT8
 
