@@ -27,4 +27,6 @@ creation of the project:
   - Class and id
   - Lists
 - CSS
-  - Spinner
+  - Display flex
+  - @media
+  - Font types
